@@ -1,0 +1,10 @@
+call plug#begin(stdpath('data').'/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'danilo-augusto/vim-afterglow'
+Plug 'preservim/nerdtree'
+Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-surround'
+Plug 'morhetz/gruvbox'
+call plug#end()
