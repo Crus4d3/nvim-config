@@ -14,8 +14,16 @@ endif
 
 set number
 set syntax=True
+set bg=light
 
+nnoremap <F8> :set hlsearch!
 nnoremap Y y$
+cnoremap <C-p> <Up>
+cnoremap <C-n> <Down>
 
-colorscheme afterglow
-let g:airline_theme='afterglow'
+let g:gruvbox_contrast_light="medium"
+colorscheme gruvbox
+
+let g:airline_theme='gruvbox'
+let g:airline#parts#ffenc#skip_expected_string='utf-8[unix]'
+au User AirlineAfterInit :let g:airline_section_z = "%l:%2c"

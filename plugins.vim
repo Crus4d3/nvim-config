@@ -7,4 +7,5 @@ Plug 'tpope/vim-repeat'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'morhetz/gruvbox'
+Plug 'lifepillar/vim-solarised8'
 call plug#end()
