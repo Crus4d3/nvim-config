@@ -16,6 +16,9 @@ set number
 set syntax=True
 set bg=light
 
+set wildmenu
+set wildmode=longest:full,full
+
 nnoremap <F8> :set hlsearch!
 nnoremap Y y$
 cnoremap <C-p> <Up>
